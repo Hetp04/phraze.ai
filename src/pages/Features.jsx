@@ -1,5 +1,10 @@
 import SlidingRectangles from '../components/SlidingRectangles';
 import { useScrollAnimation } from '../components/ScrollAnimation';
+import pic1 from '../images/pic1.png';
+import pic3 from '../images/pic3.png';
+import pic4 from '../images/pic4.png';
+import pic5 from '../images/pic5.png';
+import pic7 from '../images/pic7.png';
 
 export default function Features() {
   // Initialize scroll animation
@@ -292,7 +297,7 @@ export default function Features() {
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease'
               }}>
                 <img 
-                  src="/src/images/pic3.png" 
+                  src={pic3}
                   alt="Project organization interface"
                   style={{
                     width: '100%',
@@ -495,7 +500,7 @@ export default function Features() {
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease'
               }}>
                 <img 
-                  src="/src/images/pic1.png" 
+                  src={pic1} 
                   alt="Real-time collaboration interface"
                   style={{
                     width: '100%',
@@ -665,7 +670,7 @@ export default function Features() {
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease'
               }}>
                 <img 
-                  src="/src/images/pic4.png" 
+                  src={pic4}
                   alt="Manual logging interface"
                   style={{
                     width: '100%',
@@ -835,7 +840,7 @@ export default function Features() {
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease'
               }}>
                 <img 
-                  src="/src/images/pic5.png" 
+                  src={pic5}
                   alt="Data import and export interface"
                   style={{
                     width: '100%',
@@ -971,7 +976,7 @@ export default function Features() {
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease'
               }}>
                 <img 
-                  src="/src/images/pic7.png" 
+                  src={pic7}
                   alt="Annotation tracking and sharing interface"
                   style={{
                     width: '100%',
