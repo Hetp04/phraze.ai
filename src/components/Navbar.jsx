@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { auth } from '../firebase-init';
 import { useExtension } from "../context/ExtensionContext";
 import { getFirebaseData } from '../funcs';
+import pImage from '../images/p.png';
 
 export default function Navbar({ currentProject, onProjectChange }) {
 
@@ -137,7 +138,7 @@ export default function Navbar({ currentProject, onProjectChange }) {
       <div className="nav-container">
         <div className="nav-left">
           <Link to="/" className="logo">
-            <img src="src/images/p.png" alt="Phraze Logo" className="logo-img" />
+            <img src={pImage} alt="Phraze Logo" className="logo-img" />
           </Link>
         </div>
         <div className="nav-center">
