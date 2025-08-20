@@ -147,7 +147,7 @@ export default function ShareModal({ isOpen, onClose }) {
         ref={dialogRef}
         tabIndex={-1}
         style={{
-          position: 'relative', background: '#ffffff', border: '1px solid #e5e7eb',
+          position: 'fixed', background: '#ffffff', border: '1px solid #e5e7eb',
           borderRadius: 12,
           width: anchor ? `${anchor.width}px` : 'min(420px, 92%)',
           maxHeight: anchor ? `${anchor.maxHeight}px` : '70vh',
@@ -155,7 +155,6 @@ export default function ShareModal({ isOpen, onClose }) {
           fontFamily: 'system-ui, -apple-system, Segoe UI, Roboto, sans-serif', color: '#111827',
           overflow: 'hidden',
           opacity: fadeIn ? 1 : 0,
-          position: 'fixed',
           left: anchor ? `${anchor.left}px` : '50%',
           top: anchor ? `${anchor.top}px` : '50%',
           transform: 'translate(-50%, -50%)',
